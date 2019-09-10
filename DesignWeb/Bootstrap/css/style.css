@@ -1,0 +1,17 @@
+.bg{
+    background-image: url("../img/pepperStark.jpg");
+    background-size: cover;
+    height: 675px;
+}
+
+hr{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: white;
+}
+
+#First{
+
+}
