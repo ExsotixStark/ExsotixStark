@@ -1,7 +1,11 @@
-.bg{
+.firstBg{
     background-image: url("../img/pepperStark.jpg");
     background-size: cover;
     height: 675px;
+}
+
+.secondBg{
+    background-color: #007443;
 }
 
 hr{
@@ -9,9 +13,15 @@ hr{
     padding-top: 30px;
     max-width: 50px;
     border-width: 3px;
-    border-color: white;
+    border-color: greenyellow;
 }
 
-#First{
-
+.margin{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
+
+.row{
+    align-items: center;
+    text-align: center;
+ }
