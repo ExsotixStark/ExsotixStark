@@ -1,7 +1,9 @@
 .firstBg{
     background-image: url("../img/ironManWallpaper.jpg");
     background-size: cover;
-    height: 675px;
+    background-position: center;
+    height: 1080px;
+
 }
 
 .secondBg{
@@ -33,3 +35,12 @@ hr{
     font-size: 4em;
     color: red;
 }
+
+
+/* Fait un degrader du rouge en haut en passant parle jaune au centre et fini par vert en bas */
+/*
+#grad1 {
+  height: 200px;
+  background-image: linear-gradient(red, yellow, green);
+}
+ */
