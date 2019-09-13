@@ -1,3 +1,9 @@
+.container-fluid{
+    padding: 0px;
+    position: relative;
+    text-align: center;
+}
+
 .firstBg{
     background-image: url("../img/ironManWallpaper.jpg");
     background-size: cover;
