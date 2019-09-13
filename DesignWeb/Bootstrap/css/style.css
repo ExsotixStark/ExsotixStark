@@ -1,19 +1,22 @@
 .firstBg{
-    background-image: url("../img/pepperStark.jpg");
+    background-image: url("../img/ironManWallpaper.jpg");
     background-size: cover;
     height: 675px;
 }
 
 .secondBg{
-    background-color: #007443;
+    background-color: darkgoldenrod;
+}
+
+.thirdBg{
+    background-color: white;
 }
 
 hr{
-    padding-bottom: 30px;
     padding-top: 30px;
     max-width: 50px;
     border-width: 3px;
-    border-color: greenyellow;
+    border-color: darkred;
 }
 
 .margin{
@@ -25,3 +28,8 @@ hr{
     align-items: center;
     text-align: center;
  }
+
+.icon {
+    font-size: 4em;
+    color: red;
+}
