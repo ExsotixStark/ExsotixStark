@@ -9,6 +9,13 @@
     text-align: center;
  }
 
+.picture{
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+
+
 /* Fait un degrader du rouge en haut en passant parle jaune au centre et fini par vert en bas */
 /*
 #grad1 {

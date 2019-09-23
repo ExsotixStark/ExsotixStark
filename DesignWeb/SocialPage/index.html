@@ -11,20 +11,63 @@
 </head>
 <body>
 <div class="container-fluid">
-    <!-- Faire une premiere ligne horizontale -->
     <div class="row no-gutters">
-        <!--Fait une colone
-        -xl = Pc
-        -md = Tablette
-        -'col' seul = Cell)
-        -le chiffre est combien sur 12 on lui donne a l'ecran (12/12 c'est tout l'ecran et 3/12 c'est le quart de l'ecran) -->
-        <div class="col-xl-12 col-md-12 col-12">
-            <div> <!-- Ce qu'on veut mettre -->
-                <button type="button" class="btn btn-danger margin">Find Out More!</button>
-                <img src="img/ironMan.jpg" class="img-fluid" alt="Iron Man" title="Iron man">
+        <!-- Première partie -->
+        <div class="col-xl-3 card bg-light mb-3">
+
+            <!-- Profile avec photo -->
+            <div class="card bg-light mb-2">
+                <div class="card-body">
+                    <h4 class="card-title">My Profile</h4>
+                    <img src="img/vendeta.jpg" class="rounded-circle card-link picture" alt="vendeta" title="Vendeta">
                 </div>
             </div>
+
+            <!-- Badge d'intérêt -->
+            <div class="card bg-light mb-3">
+                <div class="card-body align-items-center">
+                    <h5 class="card-title">Interest</h5>
+
+                    <span class="badge badge-secondary">News</span>
+                    <span class="badge badge-primary">W3School</span>
+                    <span class="badge badge-success">Music</span><br>
+                    <span class="badge badge-info">Sport</span>
+                    <span class="badge badge-warning">Gaming</span>
+                    <span class="badge badge-danger">Friends</span>
+                </div>
+            </div>
+
+            <!-- Avertissement en vert. -->
+            <div class="card alert alert-success">
+                <strong>Hey!</strong> People are looking at your profile! Find out who.
+            </div>
+
+            <!-- Liens -->
+            <div class="mb-4">
+                <a href="">Link</a><br>
+                <a href="">Link</a><br>
+                <a href="">Link</a>
+            </div>
+
         </div>
+
+        <!-- Deuxième partie -->
+        <div class="col-xl-7">
+
+            <!-- Partie avec bouton like -->
+            <div class="col-xl-12 card bg-white mb-3">
+                <p class="text-justify">Status : Feeling Blue!</p>
+                <button type="button" class="card bg-light btn col-xl-2 mb-2">
+                    <i class="fas fa-thumbs-up"> Like</i>
+                </button>
+            </div>
+
+            
+
+
+        </div>
+
+    </div>
 </div>
 
 <!-- script pour lire les icons de FontAwesome -->
