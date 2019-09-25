@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+.navbar{
+    background-color: #005cbf;
+    text-decoration: black;
+}
 
 /* Fait un degrader du rouge en haut en passant parle jaune au centre et fini par vert en bas */
 /*
