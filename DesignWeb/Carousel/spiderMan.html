@@ -11,39 +11,74 @@
 </head>
 
 <body>
+<div class="container-fluid">
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">Carousel</a>
 
-<div id="spiderManCarousel" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-        <li data-target="#spiderManCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#spiderManCarousel" data-slide-to="1"></li>
-        <li data-target="#spiderManCarousel" data-slide-to="2"></li>
-    </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- Partie où on met les images. -->
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="w-100" src="img/spiderMan.jpg" alt="spider Man #1">
+        <!-- Partie bouton de la barre de navigation -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+
+                <!-- Iron Man lien barre navigation -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="ironMan.html">Iron Man<span class="sr-only">(current)</span></a>
+                </li>
+
+                <!-- Thor lien barre navigation -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="thor.html">Thor<span class="sr-only">(current)</span></a>
+                </li>
+
+                <!-- Spider Man lien barre navigation -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="spiderMan.html">Spider Man<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
         </div>
 
-        <div class="carousel-item">
-            <img class="w-100" src="img/spiderMan1.jpg" alt="spider Man #2">
+
+    </nav>
+
+    <!-- Carousel -->
+    <div id="spiderManCarousel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#spiderManCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#spiderManCarousel" data-slide-to="1"></li>
+            <li data-target="#spiderManCarousel" data-slide-to="2"></li>
+        </ul>
+
+        <!-- Partie où on met les images. -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100" src="img/spiderMan.jpg" alt="spider Man #1">
+            </div>
+
+            <div class="carousel-item">
+                <img class="w-100" src="img/spiderMan1.jpg" alt="spider Man #2">
+            </div>
+
+            <div class="carousel-item">
+                <img class="w-100" src="img/spiderMan2.jpg" alt="spider Man #3">
+            </div>
+
         </div>
 
-        <div class="carousel-item">
-            <img class="w-100" src="img/spiderMan2.jpg" alt="spider Man #3">
-        </div>
+        <!-- Partie des flèches de contrôle d'image. -->
+        <a class="carousel-control-next" href="#spiderManCarousel" data-slide-to="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <a class="carousel-control-prev" href="#spiderManCarousel" data-slide-to="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+
 
     </div>
-
-    <!-- Partie des flèches de contrôle d'image. -->
-    <a class="carousel-control-next" href="#spiderManCarousel" data-slide-to="next">
-        <span class="carousel-control-next-icon"></span>
-    </a>
-    <a class="carousel-control-prev" href="#spiderManCarousel" data-slide-to="prev">
-        <span class="carousel-control-prev-icon"></span>
-    </a>
-
-
 </div>
 
 <!-- script pour lire les icons de FontAwesome -->
