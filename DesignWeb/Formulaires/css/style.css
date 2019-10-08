@@ -1,0 +1,15 @@
+.container-fluid{
+    padding: 0px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+/* Fait un degrader du rouge en haut en passant parle jaune au centre et fini par vert en bas */
+/*
+#grad1 {
+  height: 200px;
+  background-image: linear-gradient(red, yellow, green);
+}
+ */
